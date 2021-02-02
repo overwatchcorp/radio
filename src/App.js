@@ -2,6 +2,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import AddStation from './features/stations/addStation';
+import Stream from './features/stream';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       </header>
       <div className="row justify-content-center mt-2">
         <div className="col">
-          here we go!
+          <Stream url="http://96.aac.pls.kdfc.live/" />
         </div>
       </div>
     </div>
